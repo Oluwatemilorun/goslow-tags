@@ -1,7 +1,7 @@
 # goslowTag
 A simple jQuery plugin for initializing hashtags on input fields and textareas
 
-# integrating with your application
+# Integrating with your application
 Include the following lines in your HTML
 
 ```html
@@ -9,7 +9,7 @@ Include the following lines in your HTML
 <script src="js/jquery.js"></script>
 <script src="js/goslowTag.js"></script>
 ```
-# Intialization
+# Initialization
 intialize goslowTag in your javascript within the document.ready
 
 ```javascript
