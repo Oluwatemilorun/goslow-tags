@@ -1,4 +1,4 @@
-# goslow-tags
+# goslowTag
 A simple jQuery plugin for initializing hashtags on input fields and textareas
 
 # integrating with your application
