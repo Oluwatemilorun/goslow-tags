@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>goslowTag</title>
+
+    <link rel="stylesheet" href="css/goslowTag.css">
+    <style>
+        body {
+            font-family: sans-serif
+        }
+        .container {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .container input[type=text] {
+            width: 100%;
+            height: 3rem; 
+            font-size: 20px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #9e9e9e;
+            border-radius: 0;
+            outline: none;
+            box-shadow: none;
+            box-sizing: content-box;
+            transition: all 0.3s;
+            font-weight: inherit;
+        }
+
+        .container input[type=text]:focus:not([readonly]) {
+            border-bottom: 2px solid #26a69a;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>#goslowTag</h1>
+
+
+    <br>
+
+    <div class="container">
+        <input type="text" placeholder="Write some bunch of text and hashtags">
+    </div>
+
+    <!-- add this to your code -->
+    <script src="js/jquery.js"></script>
+    <script src="js/goslowTag.js"></script>
+    <script>
+        $(document).on('ready', function() {
+            $('input').goslowTag();
+        });
+    </script>
+</body>
+</html>
